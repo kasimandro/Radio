@@ -1,0 +1,53 @@
+#head-wrap img {
+	height: 100px;
+}
+#head-wrap h1 {
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+	position: relative;
+	top: -70px;
+	left: 600px;
+}
+body {
+	background-color: lightblue;
+}
+#figures span {
+	font-size: 45px;
+	color: #000066 ;
+	position: relative;
+	left: 90px;
+	top: -40px;
+
+}
+#figures  {
+	padding-left: 15px;
+	padding-top: 90px;
+}
+#f1 figcaption {
+	font-size: 15px;
+	font-family: arial;
+	font-weight: bold;
+}
+#f2 {
+	padding-top: 80px;
+}
+#f2 figcaption {
+	font-size: 15px;
+	font-family: arial;
+	font-weight: bold;
+}
+#f3 {
+	padding-top: 100px;
+}
+#f3 figcaption {
+	font-size: 15px;
+	font-family: arial;
+	font-weight: bold;
+}
+	#main-footer {
+	padding: 30px;
+}
+#main-footer span {
+	color: white;
+}

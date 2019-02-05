@@ -1,0 +1,58 @@
+/* Tablet IPAD */ 
+@media (max-width: 768px)
+{
+		#main-nav ul li {
+			display: block ! important;
+		}
+		#news {
+			width: 100%;
+			height: 100%;
+		}
+		#cinema {
+			width: 100%;
+			height: 100%;
+		}
+		section article p {
+			width: 100%;
+			height: 100%;	
+		}
+		#showbiz {
+			float: left;
+		}
+		#aside .song-pos span {
+			display: none;
+		}
+		#aside .song_even img{
+		float: left;
+		width: 40%;
+	}
+}
+/* Smart Phones */
+@media (max-width: 468px)
+{
+		#main-nav ul li {
+			float: none;
+		}
+		#news {
+			width: 40%;
+			height: 40%;
+		}
+		#cinema {
+			width: 40%;
+			height: 40%;
+		}
+		section article p {
+			width: 40%;
+			height: 40%;	
+		}
+		#showbiz {
+			float: bottom;
+		}
+		#aside .song-pos span {
+			float: none;
+		}
+		#aside .song_even img{
+		float: bottom;
+		width: 40%;
+	}
+}

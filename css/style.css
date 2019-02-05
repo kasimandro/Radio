@@ -1,0 +1,147 @@
+body {
+	background: white;
+}
+#head-wrap img{
+	height: 100px;
+}
+#main-nav {
+	width: 950px;
+	height: 50px;
+	margin: 0;
+	padding-left: 10px;
+
+} 
+#main-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+} 
+#main-nav ul li {
+	display: inline;
+	margin: 0px;
+
+} 
+#main-nav ul li a {
+	height:33px;
+	display: block;
+	float: left;
+	padding: 17px 15px 0 15px;
+	font: bold 12px Arial;
+	color: #FFF;
+	text-decoration: none;
+
+} 
+
+#main-nav ul li a:hover {
+	color:#363636;
+
+}
+
+#main-nav ul li#active a {
+	color:#363636;
+
+}
+#news{
+	float: left;
+	width: 50%;
+	max-height: 30%;
+	background: #d6d6c2;
+	margin: 25px;
+	padding: 10px;
+}
+
+#news article span{
+	padding: 5px;
+	margin: 5px;
+	color: #fff;
+	background: blue;
+	position: relative;
+	top: -10px;
+	font-family: Arial;
+}
+#news article h3 a{
+	text-decoration: none;
+	font-family: Arial;
+	position: relative;
+	top: 5px;
+}
+#news article img {
+	height: 90px;
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
+#news article p {
+
+	text-align: left;
+	position: absolute;
+	left: 254px;
+	top: 225px;
+}
+#movie{
+	float: left;
+	width: 40%;
+	max-height: 30%;
+	height: 30px;
+	background: #d6d6c2;
+	margin: 25px;
+	padding: 65px;
+}
+#movie article span{
+	padding: 5px;
+	margin: 5px;
+	color: #fff;
+	background: blue;
+	position: relative;
+	top: -70px;
+	left: -50px;
+	font-family: Arial;
+}
+#movie article h3 a{
+	text-decoration: none;
+	font-family: Arial;
+	position: relative;
+	top: -60px;
+	left: -50px;
+}
+#movie article img {
+	height: 90px;
+	position: relative;
+	left: -50px;
+	top: -60px;
+}
+#movie article p {
+	text-align: left;
+	position: relative;
+	left: 150px;
+	top: -155px;
+}
+#aside {
+	background: #B5DBFF;
+}
+#aside > #Top > span {
+	position: relative;
+	padding: 5px;
+	margin: 5px;
+	color: #fff;
+	background: blue;
+	top: -30px;
+	font-family: Arial
+
+}
+#aside {
+	padding: 50px;
+
+}
+#aside .song_even {
+	padding-top: 5px;
+
+}
+#main-footer {
+
+	padding: 30px;
+
+}
+#main-footer span {
+	color : white;
+}
